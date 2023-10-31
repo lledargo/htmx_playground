@@ -1,0 +1,9 @@
+<script src="https://unpkg.com/htmx.org@1.9.6"></script>
+<body>
+  <form hx-post="/roll" hx-target="#results" hx-swap="afterbegin"> 
+  <input type="text" name="roll" id="roll" style="width:50px" />d6</br>
+  <button type="submit">ROLL!</button> <button hx-target="#results" hx-get="/clear" hx-swap="innerHTML">Clear!</button>
+  </form>
+  <div id="results">
+  </div>
+</body>
