@@ -1,0 +1,3 @@
+<button hx-target="#everything" hx-get="/dontclick" hx-swap="outerHTML" hx-confirm="Do you really want to do this?" style="background-color: red;">
+  DON'T click Me
+</button>
