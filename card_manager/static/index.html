@@ -1,0 +1,21 @@
+<script src="https://unpkg.com/htmx.org@1.9.6"></script>
+<style>
+  .carddiv {
+    margin:2px;
+    background-color:grey;
+    width:300px;
+    border-radius:5px
+  }
+  .content {
+    display: inline;
+    margin: auto;
+  }
+  .deletebutton {
+    float: right;
+    margin: auto;
+  }
+</style>
+<body>
+<div id="cards" hx-get="/loadall" hx-trigger="load"></div>
+<div id="form" hx-get="/form.html" hx-trigger="load,submit"> </div>
+</body>
