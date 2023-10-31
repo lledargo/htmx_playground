@@ -1,0 +1,7 @@
+Just a little repo where I play around with htmx. 
+It holds several "projects" each with its own subdirectory. 
+
+Go into a project directory and `npm install` then `node server.js` 
+to start the project on port 5000. Then visit localhost:5000 of course. 
+Please note: The browser will make requests to 
+unpkg.com/htmx.org@1.9.6 by opening any of these apps.
